@@ -1,0 +1,6 @@
+#Instalar Composer no sistema
+sudo curl -sS https://getcomposer.org/installer | php
+sudo mv composer.phar /usr/local/bin/composer
+
+#Instalar o projeto em um determinado dominio/local
+composer create-project laravel/laravel example-app
